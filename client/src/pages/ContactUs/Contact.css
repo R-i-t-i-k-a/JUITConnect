@@ -1,0 +1,50 @@
+form {
+    margin-top: 20px;
+  }
+  
+  .fh1text {
+    color: black;
+  }
+  
+  .fformRow {
+    margin: 10px 0 20px 0;
+  }
+  
+  .fformInput {
+    padding: 15px 10px;
+  }
+  
+  .fform-content {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+  }
+  
+  .ferrorMessage {
+    color: #f45532;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .fsubmit-btn {
+    padding: 15px 50px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+  }
+  Header, Footer{
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+  }
+  @media (max-width: 768px) {
+    .fsubmit-message {
+      width: 125px;
+      margin-left: 200px;
+    }
+  }
+  

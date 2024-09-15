@@ -1,0 +1,70 @@
+/* LoginFormContent.css */
+.container {
+    position: relative;
+    top: 60px;
+    right: 8cap;
+    height: auto;
+    width: 300px;
+    background-color: #2D3250;
+    border-radius: 60px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+}
+
+.label {
+    font-family: 'Arial';
+    font-size: 25px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.inputField {
+    border: none; 
+    border-bottom: 2px solid #FFB17A; 
+    background-color: transparent; 
+    color: #FFB17A; 
+    text-align: left; 
+    font-size: 15px; 
+    padding: 10px 0; 
+    margin-bottom: 15px; 
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+.inputField::placeholder {
+    color: #FFB17A; 
+}
+
+.agreement {
+    font-family: 'Inter';
+    font-size: 15px;
+    color: #676F8D;
+    margin-bottom: 20px;
+    align-content: center;
+    text-align: center;
+}
+
+.checkboxLabel {
+    margin-left: 10px; /* Increased margin left for checkbox label */
+}
+
+.button {
+    width: 60%;
+    height: 40px;
+    border-radius: 60px;
+    background-color: #FFB17A;
+    border: none;
+    color: #FFFFFF;
+    font-size: 15px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    text-align: center;
+    margin: 0 auto;
+}

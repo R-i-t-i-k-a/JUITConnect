@@ -1,0 +1,35 @@
+
+  .answers-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .answers-content {
+    flex-grow: 1;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #F0F0F0;
+  }
+  
+  .answers-list {
+    width: 100%;
+    max-width: 800px;
+    background-color: #EAEAEA;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .answer {
+    background-color: #FFFFFF;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  

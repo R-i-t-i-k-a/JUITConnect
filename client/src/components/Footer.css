@@ -1,0 +1,37 @@
+.footer {
+    background-color: #2D3250;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .footer-icons {
+    margin: 20px 0;
+  }
+  
+  .footer-icon {
+    margin: 0 10px;
+    font-size: 24px;
+    color: white;
+  }
+  
+  .footer-links {
+    margin: 20px 0;
+  }
+  
+  .footer-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+  }
+  
+  .footer-link:hover {
+    color: #FFB17A;
+  }
+  
+  .footer-copy {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  

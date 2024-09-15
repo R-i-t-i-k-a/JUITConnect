@@ -1,0 +1,39 @@
+/* src/AboutUs.css */
+.about-container {
+    width: 100%;
+    background-color: #FFFFFF;
+    color: #2D3250;
+  }
+  
+  .about-content {
+    margin-top: 20px;
+    margin-bottom: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .about-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .about-text {
+    max-width: 600px;
+  }
+  
+  .about-text h1 {
+    font-size: 2.5rem;
+    color: #2D3250;
+    margin-bottom: 20px;
+  }
+  
+  .about-text p {
+    text-align: justify;
+    font-size: 1rem;
+    color: #424769;
+    margin-bottom: 10px;
+  }
